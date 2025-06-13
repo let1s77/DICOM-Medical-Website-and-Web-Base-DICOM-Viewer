@@ -1,0 +1,17 @@
+{
+    "OrthancExplorer2" : {
+        "Enable": true,
+        "IsDefaultOrthancUI": true,
+        "CustomFavIconPath": "E:\\Orthanc\\Orthanc Server\\icon.ico",
+        "CustomCssPath": "E:\\Orthanc\\Orthanc Server\\custom.css",
+        "CustomTitle": "BK DICOM",
+        "UiOptions" : {
+            "EnableSettings": false,             
+            "EnableLinkToLegacyUi": false,
+            "AvailableLanguages": ["en", "de", "es", "fr", "it", "ka", "ro", "ru", "si", "uk", "zh","vi"],
+            "DefaultLanguage" : "vi",
+            "DateFormat": "ddMMyyyy"           
+        }
+
+    }
+}

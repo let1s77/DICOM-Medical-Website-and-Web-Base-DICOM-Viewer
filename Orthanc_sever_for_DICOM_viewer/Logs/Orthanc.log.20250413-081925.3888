@@ -1,0 +1,62 @@
+W0413 08:19:25.732257             MAIN main.cpp:2102] Orthanc version: 1.12.7
+W0413 08:19:25.732257             MAIN OrthancConfiguration.cpp:110] Scanning folder "Configuration" for configuration files
+W0413 08:19:25.732257             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\aws-s3.json"
+W0413 08:19:25.732257             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\azure.json"
+W0413 08:19:25.732257             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\delayed-deletion.json"
+W0413 08:19:25.732257             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\dicomweb.json"
+W0413 08:19:25.737773             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\housekeeper.json"
+W0413 08:19:25.737773             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\indexer.json"
+W0413 08:19:25.737773             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\mysql.json"
+W0413 08:19:25.737773             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\odbc.json"
+W0413 08:19:25.737773             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\orthanc-explorer-2.json"
+W0413 08:19:25.737773             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\orthanc.json"
+W0413 08:19:25.737773             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\postgresql.json"
+W0413 08:19:25.737773             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\serve-folders.json"
+W0413 08:19:25.737773             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\tcia.json"
+W0413 08:19:25.737773             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\transfers.json"
+W0413 08:19:25.737773             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\worklists.json"
+W0413 08:19:25.897084             MAIN main.cpp:934] Loading plugin(s) from: E:\Orthanc\Orthanc Server\Plugins
+W0413 08:19:25.897084             MAIN PluginsManager.cpp:287] Registering plugin 'connectivity-checks' (version 1.12.7)
+W0413 08:19:25.897084             MAIN PluginsManager.cpp:287] Registering plugin 'delayed-deletion' (version 1.12.7)
+W0413 08:19:25.897084             MAIN delayed-deletion:/Plugin.cpp:351] DelayedDeletion - plugin is loaded but disabled (check your "DelayedDeletion.Enable" configuration)
+W0413 08:19:25.897084             MAIN PluginsManager.cpp:287] Registering plugin 'housekeeper' (version 1.12.7)
+W0413 08:19:25.897084             MAIN housekeeper:/Plugin.cpp:825] Housekeeper plugin is initializing
+W0413 08:19:25.897084             MAIN housekeeper:/Plugin.cpp:947] Housekeeper plugin is disabled by the configuration file
+W0413 08:19:25.897084             MAIN PluginsManager.cpp:287] Registering plugin 'ohif' (version 1.5)
+W0413 08:19:25.897084             MAIN PluginsManager.cpp:287] Registering plugin 'worklists' (version 1.12.7)
+W0413 08:19:25.897084             MAIN worklists:/Plugin.cpp:229] Sample worklist plugin is initializing
+W0413 08:19:25.897084             MAIN worklists:/Plugin.cpp:256] Worklist server is disabled by the configuration file
+W0413 08:19:25.912752             MAIN PluginsManager.cpp:287] Registering plugin 'multitenant-dicom' (version 1.12.7)
+W0413 08:19:26.053217             MAIN PluginsManager.cpp:287] Registering plugin 'authorization' (version 0.9.1)
+W0413 08:19:26.053217             MAIN PluginsManager.cpp:158] Initializing the authorization plugin
+W0413 08:19:26.053217             MAIN PluginsManager.cpp:158] No section "Authorization" in the configuration file, the authorization plugin is disabled
+W0413 08:19:26.054957             MAIN PluginsManager.cpp:287] Registering plugin 'AWS S3 Storage' (version 2.5.0)
+W0413 08:19:26.056962             MAIN AWS S3 Storage:/StoragePlugin.cpp:581] AWS S3 Storage plugin is initializing
+W0413 08:19:26.056962             MAIN AWS S3 Storage:/StoragePlugin.cpp:591] AWS S3 Storage: no "AwsS3Storage" section found in configuration, plugin is disabled
+W0413 08:19:26.058838             MAIN PluginsManager.cpp:287] Registering plugin 'Azure Blob Storage' (version 2.3.1)
+W0413 08:19:26.058838             MAIN PluginsManager.cpp:158] Azure Blob Storage plugin is initializing
+W0413 08:19:26.058838             MAIN PluginsManager.cpp:158] Azure Blob Storage: no "AzureBlobStorage" section found in configuration, plugin is disabled
+W0413 08:19:26.058838             MAIN PluginsManager.cpp:287] Registering plugin 'dicom-web' (version 1.18)
+W0413 08:19:26.058838             MAIN dicom-web:/Plugin.cpp:602] URI to the DICOMweb REST API: /dicom-web/
+W0413 08:19:26.060841             MAIN dicom-web:/Plugin.cpp:710] DICOMweb public root: /dicom-web/
+W0413 08:19:26.060841             MAIN dicom-web:/Plugin.cpp:721] URI to the WADO-URI API: /wado
+W0413 08:19:26.060841             MAIN PluginsManager.cpp:287] Registering plugin 'orthanc-explorer-2' (version 1.8.2)
+E0413 08:19:26.060841             MAIN PluginsManager.cpp:154] Unable to accesss the 'CustomCssPath': /E:/Orthanc/Orthanc Server/custom.css
+E0413 08:19:26.060841             MAIN PluginsManager.cpp:154] Exception while initializing the Orthanc-Explorer 2 plugin: Inexistent file
+E0413 08:19:26.060841             MAIN PluginsManager.cpp:92] Error while initializing plugin E:\Orthanc\Orthanc Server\Plugins\OrthancExplorer2.dll (code -1)
+W0413 08:19:26.060841             MAIN PluginsManager.cpp:224] Unregistering plugin 'AWS S3 Storage' (version 2.5.0)
+W0413 08:19:26.060841             MAIN AWS S3 Storage:/StoragePlugin.cpp:735] AWS S3 Storage plugin is finalizing
+W0413 08:19:26.062845             MAIN PluginsManager.cpp:224] Unregistering plugin 'Azure Blob Storage' (version 2.3.1)
+W0413 08:19:26.062845             MAIN PluginsManager.cpp:158] Azure Blob Storage plugin is finalizing
+W0413 08:19:26.062845             MAIN PluginsManager.cpp:224] Unregistering plugin 'authorization' (version 0.9.1)
+W0413 08:19:26.062845             MAIN PluginsManager.cpp:224] Unregistering plugin 'connectivity-checks' (version 1.12.7)
+W0413 08:19:26.062845             MAIN PluginsManager.cpp:224] Unregistering plugin 'delayed-deletion' (version 1.12.7)
+W0413 08:19:26.062845             MAIN PluginsManager.cpp:224] Unregistering plugin 'dicom-web' (version 1.18)
+W0413 08:19:26.062845             MAIN PluginsManager.cpp:224] Unregistering plugin 'housekeeper' (version 1.12.7)
+W0413 08:19:26.062845             MAIN housekeeper:/Plugin.cpp:956] Housekeeper plugin is finalizing
+W0413 08:19:26.062845             MAIN PluginsManager.cpp:224] Unregistering plugin 'multitenant-dicom' (version 1.12.7)
+W0413 08:19:26.062845             MAIN PluginsManager.cpp:224] Unregistering plugin 'ohif' (version 1.5)
+W0413 08:19:26.062845             MAIN PluginsManager.cpp:224] Unregistering plugin 'worklists' (version 1.12.7)
+W0413 08:19:26.062845             MAIN worklists:/Plugin.cpp:265] Sample worklist plugin is finalizing
+E0413 08:19:26.062845             MAIN main.cpp:2159] Uncaught exception, stopping now: [Error while using a shared library (plugin)] (code 25)
+W0413 08:19:26.062845             MAIN main.cpp:2190] Orthanc has stopped

@@ -1,0 +1,61 @@
+
+:root {
+    --bootstrap-theme: dark;
+
+    --study-even-bg-color: rgb(117, 172, 227);
+    --study-odd-bg-color: rgb(49, 124, 198);
+    --study-hover-color:  rgb(116, 119, 120);
+    --study-selected-color: rgb(116, 119, 120);
+    --study-details-bg-color: var(--study-selected-color);
+    --study-list-remote-bg-color: var(--study-hover-color);
+
+    --series-even-bg-color: rgb(45, 45, 50);
+    --series-odd-bg-color: rgb(35, 35, 40);
+    --series-hover-color:  var(--study-hover-color);
+    --series-selected-color: rgb(30, 30, 35);
+    --series-details-bg-color: var(--series-selected-color);
+
+    --instance-odd-bg-color: rgb(35, 35, 40);
+    --instance-even-bg-color: rgb(30, 30, 35);
+    --instance-hover-color:  var(--study-hover-color);
+    --instance-selected-color: rgb(20, 20, 25);
+    --instance-details-bg-color: var(--instance-selected-color);
+
+    --study-table-header-bg-color: var(--study-even-bg-color);
+    --study-table-filter-bg-color: rgb(52, 158, 247);
+    --study-table-actions-bg-color: var(--study-table-filter-bg-color);
+    
+    --table-filters-is-searching-color: #1dfd0d86;
+    --table-filters-is-not-searching-color: rgb(30, 150, 255);
+
+    --details-top-margin: 25px;
+
+    --nav-bar-width: 260px;
+
+    --nav-side-color: rgb(255, 255, 255);
+    --nav-side-bg-color: rgb(20, 115, 176);
+    --nav-side-sub-bg-color: #b8cfec;
+    --nav-side-selected-bg-color: rgb(116, 119, 120);
+    --nav-side-hover-bg-color: #ff8400;
+    --nav-side-submenu-color: rgb(255, 0, 0);
+    --nav-side-active-border-color: #00d5ff;
+
+    --label-bg-color: rgb(183, 0, 82);
+
+    --form-placeholder-color: #ffffff;
+
+    /* global bootstrap variables */
+    --bs-border-color: rgb(255, 255, 255);
+    --bs-info-rgb: rgb(255, 255, 255); 
+    
+}
+
+/* datepicker variables */
+.dp__theme_dark {
+    --dp-border-color: var(--bs-border-color);
+}
+
+.btn-primary {
+    --bs-btn-color: white;
+    --bs-btn-bg: rgb(97, 95, 95);
+}  */

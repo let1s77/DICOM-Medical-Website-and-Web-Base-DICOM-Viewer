@@ -1,0 +1,135 @@
+W0425 01:33:00.928968             MAIN main.cpp:2102] Orthanc version: 1.12.7
+W0425 01:33:00.928968             MAIN OrthancConfiguration.cpp:110] Scanning folder "Configuration" for configuration files
+W0425 01:33:00.928968             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\aws-s3.json"
+W0425 01:33:00.929951             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\azure.json"
+W0425 01:33:00.929951             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\delayed-deletion.json"
+W0425 01:33:00.929951             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\dicomweb.json"
+W0425 01:33:00.933389             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\housekeeper.json"
+W0425 01:33:00.933389             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\indexer.json"
+W0425 01:33:00.933389             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\mysql.json"
+W0425 01:33:00.933389             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\odbc.json"
+W0425 01:33:00.933389             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\orthanc-explorer-2.json"
+W0425 01:33:00.934414             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\orthanc.json"
+W0425 01:33:00.935923             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\postgresql.json"
+W0425 01:33:00.935923             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\serve-folders.json"
+W0425 01:33:00.935923             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\tcia.json"
+W0425 01:33:00.935923             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\transfers.json"
+W0425 01:33:00.936926             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\worklists.json"
+W0425 01:33:01.107521             MAIN main.cpp:934] Loading plugin(s) from: E:\Orthanc\Orthanc Server\Plugins
+W0425 01:33:01.108525             MAIN PluginsManager.cpp:287] Registering plugin 'connectivity-checks' (version 1.12.7)
+W0425 01:33:01.109528             MAIN PluginsManager.cpp:287] Registering plugin 'delayed-deletion' (version 1.12.7)
+W0425 01:33:01.109528             MAIN delayed-deletion:/Plugin.cpp:351] DelayedDeletion - plugin is loaded but disabled (check your "DelayedDeletion.Enable" configuration)
+W0425 01:33:01.110528             MAIN PluginsManager.cpp:287] Registering plugin 'housekeeper' (version 1.12.7)
+W0425 01:33:01.110528             MAIN housekeeper:/Plugin.cpp:825] Housekeeper plugin is initializing
+W0425 01:33:01.111527             MAIN housekeeper:/Plugin.cpp:947] Housekeeper plugin is disabled by the configuration file
+W0425 01:33:01.111527             MAIN PluginsManager.cpp:287] Registering plugin 'ohif' (version 1.5)
+W0425 01:33:01.112526             MAIN PluginsManager.cpp:287] Registering plugin 'worklists' (version 1.12.7)
+W0425 01:33:01.112526             MAIN worklists:/Plugin.cpp:229] Sample worklist plugin is initializing
+W0425 01:33:01.113529             MAIN worklists:/Plugin.cpp:256] Worklist server is disabled by the configuration file
+W0425 01:33:01.114529             MAIN PluginsManager.cpp:287] Registering plugin 'multitenant-dicom' (version 1.12.7)
+W0425 01:33:01.260869             MAIN PluginsManager.cpp:287] Registering plugin 'authorization' (version 0.9.1)
+W0425 01:33:01.261869             MAIN PluginsManager.cpp:158] Initializing the authorization plugin
+W0425 01:33:01.261869             MAIN PluginsManager.cpp:158] No section "Authorization" in the configuration file, the authorization plugin is disabled
+W0425 01:33:01.262870             MAIN PluginsManager.cpp:287] Registering plugin 'AWS S3 Storage' (version 2.5.0)
+W0425 01:33:01.263874             MAIN AWS S3 Storage:/StoragePlugin.cpp:581] AWS S3 Storage plugin is initializing
+W0425 01:33:01.263874             MAIN AWS S3 Storage:/StoragePlugin.cpp:591] AWS S3 Storage: no "AwsS3Storage" section found in configuration, plugin is disabled
+W0425 01:33:01.265870             MAIN PluginsManager.cpp:287] Registering plugin 'Azure Blob Storage' (version 2.3.1)
+W0425 01:33:01.266373             MAIN PluginsManager.cpp:158] Azure Blob Storage plugin is initializing
+W0425 01:33:01.266373             MAIN PluginsManager.cpp:158] Azure Blob Storage: no "AzureBlobStorage" section found in configuration, plugin is disabled
+W0425 01:33:01.267379             MAIN PluginsManager.cpp:287] Registering plugin 'dicom-web' (version 1.18)
+W0425 01:33:01.267379             MAIN dicom-web:/Plugin.cpp:602] URI to the DICOMweb REST API: /dicom-web/
+W0425 01:33:01.267379             MAIN dicom-web:/Plugin.cpp:710] DICOMweb public root: /dicom-web/
+W0425 01:33:01.267379             MAIN dicom-web:/Plugin.cpp:721] URI to the WADO-URI API: /wado
+W0425 01:33:01.268383             MAIN PluginsManager.cpp:287] Registering plugin 'orthanc-explorer-2' (version mainline)
+W0425 01:33:01.268383             MAIN PluginsManager.cpp:158] Root URI to the Orthanc-Explorer 2 application: /ui/
+W0425 01:33:01.280401             MAIN PluginsManager.cpp:287] Registering plugin 'gdcm' (version 1.8)
+W0425 01:33:01.280401             MAIN PluginsManager.cpp:158] Version of GDCM: 3.0.24
+W0425 01:33:01.280401             MAIN PluginsManager.cpp:158] GDCM throttling is disabled
+W0425 01:33:01.281398             MAIN PluginsManager.cpp:287] Registering plugin 'indexer' (version 1.1)
+W0425 01:33:01.281398             MAIN PluginsManager.cpp:158] OrthancIndexer is disabled
+W0425 01:33:01.282397             MAIN PluginsManager.cpp:287] Registering plugin 'mysql-index' (version 5.2)
+W0425 01:33:01.284400             MAIN mysql-index:/IndexPlugin.cpp:65] The MySQL index is currently disabled, set "EnableIndex" to "true" in the "MySQL" section of the configuration file of Orthanc
+W0425 01:33:01.284400             MAIN PluginsManager.cpp:287] Registering plugin 'mysql-storage' (version 5.2)
+W0425 01:33:01.286591             MAIN mysql-storage:/StoragePlugin.cpp:62] The MySQL storage area is currently disabled, set "EnableStorage" to "true" in the "MySQL" section of the configuration file of Orthanc
+W0425 01:33:01.286591             MAIN PluginsManager.cpp:287] Registering plugin 'neuro' (version 1.1)
+W0425 01:33:01.288588             MAIN PluginsManager.cpp:287] Registering plugin 'odbc-index' (version 1.3)
+W0425 01:33:01.288588             MAIN odbc-index:/IndexPlugin.cpp:100] The ODBC index is currently disabled, set "EnableIndex" to "true" in the "Odbc" section of the configuration file of Orthanc
+W0425 01:33:01.289592             MAIN PluginsManager.cpp:287] Registering plugin 'odbc-storage' (version 1.3)
+W0425 01:33:01.290589             MAIN odbc-storage:/StoragePlugin.cpp:150] The ODBC storage area is currently disabled, set "EnableStorage" to "true" in the "Odbc" section of the configuration file of Orthanc
+W0425 01:33:01.292589             MAIN PluginsManager.cpp:287] Registering plugin 'postgresql-index' (version 7.2)
+W0425 01:33:01.293590             MAIN postgresql-index:/IndexPlugin.cpp:67] The PostgreSQL index is currently disabled, set "EnableIndex" to "true" in the "PostgreSQL" section of the configuration file of Orthanc
+W0425 01:33:01.294588             MAIN PluginsManager.cpp:287] Registering plugin 'postgresql-storage' (version 7.2)
+W0425 01:33:01.294588             MAIN postgresql-storage:/StoragePlugin.cpp:59] The PostgreSQL storage area is currently disabled, set "EnableStorage" to "true" in the "PostgreSQL" section of the configuration file of Orthanc
+W0425 01:33:01.296093             MAIN PluginsManager.cpp:287] Registering plugin 'stl' (version 1.2)
+W0425 01:33:01.296093             MAIN stl:/Toolbox.cpp:1572] Falling back to system-wide default locale
+W0425 01:33:01.296093             MAIN stl:/Toolbox.cpp:1733] This is a MinGW build, case-insensitive comparison of strings with accents will not work outside of Wine
+W0425 01:33:01.323639             MAIN PluginsManager.cpp:287] Registering plugin 'tcia' (version 1.2)
+W0425 01:33:01.325696             MAIN PluginsManager.cpp:287] Registering plugin 'transfers' (version 1.5)
+W0425 01:33:01.327263             MAIN PluginsManager.cpp:287] Registering plugin 'web-viewer' (version 2.9)
+W0425 01:33:01.327263             MAIN PluginsManager.cpp:158] Initializing the Web viewer
+W0425 01:33:01.327263             MAIN PluginsManager.cpp:158] Web viewer using 6 threads for the decoding of the DICOM images
+W0425 01:33:01.327263             MAIN PluginsManager.cpp:158] Storing the cache of the Web viewer in folder: C:\Orthanc\WebViewerCache
+W0425 01:33:01.333709             MAIN PluginsManager.cpp:158] Web viewer using a cache of 100 MB
+W0425 01:33:01.336666             MAIN PluginsManager.cpp:287] Registering plugin 'wsi' (version 3.1)
+W0425 01:33:01.336666             MAIN wsi:/Plugin.cpp:502] The whole-slide imaging plugin will use at most 12 threads to transcode the tiles
+W0425 01:33:01.337665             MAIN wsi:/Plugin.cpp:581] Support of IIIF is enabled in the whole-slide imaging plugin
+W0425 01:33:01.338705             MAIN PluginsManager.cpp:287] Registering plugin 'serve-folders' (version 1.12.7)
+W0425 01:33:01.338705             MAIN serve-folders:/Plugin.cpp:415] ServeFolders: Empty configuration file: No additional folder will be served!
+W0425 01:33:01.338705             MAIN OrthancInitialization.cpp:444] SQLite index directory: "C:\Orthanc"
+W0425 01:33:01.339713             MAIN OrthancInitialization.cpp:543] Storage directory: "C:\Orthanc"
+W0425 01:33:01.398853             MAIN HttpClient.cpp:1206] HTTPS will use the CA certificates from this file: E:\Orthanc\Orthanc Server\Configuration\ca-certificates.crt
+W0425 01:33:01.399861             MAIN LuaContext.cpp:95] Lua says: Lua toolbox installed
+W0425 01:33:01.399861             MAIN LuaContext.cpp:95] Lua says: Lua toolbox installed
+W0425 01:33:01.399861             MAIN ServerContext.cpp:589] Disk compression is disabled
+W0425 01:33:01.399861             MAIN ServerIndex.cpp:395] No limit on the number of stored patients
+W0425 01:33:01.399861             MAIN ServerIndex.cpp:415] No limit on the size of the storage area
+W0425 01:33:01.400859             MAIN ServerContext.cpp:284] Reloading the jobs from the last execution of Orthanc
+W0425 01:33:01.407888             MAIN JobsEngine.cpp:276] The jobs engine has started with 2 threads
+W0425 01:33:01.407888             MAIN main.cpp:1346] DICOM server listening with AET ORTHANC on port: 4242
+W0425 01:33:01.408889             MAIN HttpServer.cpp:2046] HTTP compression is disabled
+W0425 01:33:01.408889             MAIN main.cpp:1195] Remote LUA script execution is disabled
+W0425 01:33:01.408889             MAIN main.cpp:1207] REST API cannot write to the file system because the "RestApiWriteToFileSystemEnabled" configuration is set to false.  The URI /instances/../export is disabled.  This is the most secure configuration.
+W0425 01:33:01.409888             MAIN HttpServer.cpp:1804] HTTP server listening on port: 8042 (HTTPS encryption is disabled, remote access is not allowed)
+W0425 01:33:01.409888             MAIN main.cpp:946] Orthanc has started
+W0425 01:33:01.412890             MAIN PluginsManager.cpp:158] When using OE2 and the authorization plugin together, you must set 'Authorization.CheckedLevel' to 'studies'.  Unless you are using this orthanc only to generate tokens.
+W0427 02:48:04.043395          HTTP-38 ResourceFinder.cpp:762] W005: Requested tag 0008,0060 should only be read at the series or instance level
+W0427 02:48:04.044393          HTTP-38 ResourceFinder.cpp:942] W001: Accessing DICOM tags from storage when accessing study 3eaeb2d9-22435696-66caea60-8a5ec553-320f20a9: 0008,0060
+E0427 02:48:04.060604          HTTP-38 dicom-web:/Configuration.cpp:643] Unsupported return MIME type: application/dicom+json, multipart/related; type=application/octet-stream; transfer-syntax=*, will return DICOM+JSON
+W0427 02:48:04.072118          HTTP-38 ResourceFinder.cpp:762] W005: Requested tag 0008,0060 should only be read at the series or instance level
+W0427 02:48:04.072118          HTTP-38 ResourceFinder.cpp:942] W001: Accessing DICOM tags from storage when accessing study 3eaeb2d9-22435696-66caea60-8a5ec553-320f20a9: 0008,0060
+W0427 02:48:04.165148          HTTP-36 ResourceFinder.cpp:762] W005: Requested tag 0008,0060 should only be read at the series or instance level
+W0427 02:48:04.166271          HTTP-36 ResourceFinder.cpp:942] W001: Accessing DICOM tags from storage when accessing study 3eaeb2d9-22435696-66caea60-8a5ec553-320f20a9: 0008,0060
+W0427 02:48:04.176776          HTTP-36 ResourceFinder.cpp:762] W005: Requested tag 0008,0060 should only be read at the series or instance level
+W0427 02:48:04.177777          HTTP-36 ResourceFinder.cpp:942] W001: Accessing DICOM tags from storage when accessing study 3eaeb2d9-22435696-66caea60-8a5ec553-320f20a9: 0008,0060
+E0427 02:49:44.812540           HTTP-8 PluginsManager.cpp:154] accept-encoding : gzip
+E0427 02:49:44.812540           HTTP-8 PluginsManager.cpp:154] host : 127.0.0.1:8042
+E0427 02:49:44.812540           HTTP-8 PluginsManager.cpp:154] user-agent : Go-http-client/1.1
+E0427 02:49:44.813125           HTTP-8 PluginsManager.cpp:154] x-forwarded-for : 127.0.0.1
+E0427 02:49:44.813125           HTTP-8 PluginsManager.cpp:154] x-forwarded-host : ohif.loophole.site
+E0427 02:49:44.813125           HTTP-8 PluginsManager.cpp:154] x-forwarded-proto : https
+E0427 02:49:49.479012          HTTP-10 PluginsManager.cpp:154] accept : text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+E0427 02:49:49.479012          HTTP-10 PluginsManager.cpp:154] accept-encoding : gzip, deflate, br, zstd
+E0427 02:49:49.479012          HTTP-10 PluginsManager.cpp:154] accept-language : en-US,en;q=0.9,vi;q=0.8,fr-FR;q=0.7,fr;q=0.6,af;q=0.5
+E0427 02:49:49.479012          HTTP-10 PluginsManager.cpp:154] host : 127.0.0.1:8042
+E0427 02:49:49.479012          HTTP-10 PluginsManager.cpp:154] priority : u=0, i
+E0427 02:49:49.479012          HTTP-10 PluginsManager.cpp:154] sec-ch-ua : "Google Chrome";v="135", "Not-A.Brand";v="8", "Chromium";v="135"
+E0427 02:49:49.479012          HTTP-10 PluginsManager.cpp:154] sec-ch-ua-mobile : ?0
+E0427 02:49:49.479012          HTTP-10 PluginsManager.cpp:154] sec-ch-ua-platform : "Windows"
+E0427 02:49:49.479012          HTTP-10 PluginsManager.cpp:154] sec-fetch-dest : document
+E0427 02:49:49.479012          HTTP-10 PluginsManager.cpp:154] sec-fetch-mode : navigate
+E0427 02:49:49.479012          HTTP-10 PluginsManager.cpp:154] sec-fetch-site : none
+E0427 02:49:49.479012          HTTP-10 PluginsManager.cpp:154] sec-fetch-user : ?1
+E0427 02:49:49.479012          HTTP-10 PluginsManager.cpp:154] upgrade-insecure-requests : 1
+E0427 02:49:49.479012          HTTP-10 PluginsManager.cpp:154] user-agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+E0427 02:49:49.479012          HTTP-10 PluginsManager.cpp:154] x-forwarded-for : 127.0.0.1
+E0427 02:49:49.479012          HTTP-10 PluginsManager.cpp:154] x-forwarded-host : ohif.loophole.site
+E0427 02:49:49.479012          HTTP-10 PluginsManager.cpp:154] x-forwarded-proto : https
+W0427 02:50:21.325605          HTTP-38 ResourceFinder.cpp:762] W005: Requested tag 0008,0060 should only be read at the series or instance level
+W0427 02:50:21.325605          HTTP-38 ResourceFinder.cpp:942] W001: Accessing DICOM tags from storage when accessing study 3eaeb2d9-22435696-66caea60-8a5ec553-320f20a9: 0008,0060
+E0427 02:50:21.339358          HTTP-38 dicom-web:/Configuration.cpp:643] Unsupported return MIME type: application/dicom+json, multipart/related; type=application/octet-stream; transfer-syntax=*, will return DICOM+JSON
+W0427 02:50:21.748069          HTTP-38 ResourceFinder.cpp:762] W005: Requested tag 0008,0060 should only be read at the series or instance level
+W0427 02:50:21.749335          HTTP-38 ResourceFinder.cpp:942] W001: Accessing DICOM tags from storage when accessing study 3eaeb2d9-22435696-66caea60-8a5ec553-320f20a9: 0008,0060
+W0427 02:50:22.315800           HTTP-1 ResourceFinder.cpp:762] W005: Requested tag 0008,0060 should only be read at the series or instance level
+W0427 02:50:22.315800           HTTP-1 ResourceFinder.cpp:942] W001: Accessing DICOM tags from storage when accessing study 3eaeb2d9-22435696-66caea60-8a5ec553-320f20a9: 0008,0060
+W0427 02:50:22.739681          HTTP-39 ResourceFinder.cpp:762] W005: Requested tag 0008,0060 should only be read at the series or instance level
+W0427 02:50:22.739681          HTTP-39 ResourceFinder.cpp:942] W001: Accessing DICOM tags from storage when accessing study 3eaeb2d9-22435696-66caea60-8a5ec553-320f20a9: 0008,0060

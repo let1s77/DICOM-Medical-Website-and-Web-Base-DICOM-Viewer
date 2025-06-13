@@ -1,0 +1,46 @@
+W0424 20:08:47.357915             MAIN main.cpp:2102] Orthanc version: 1.12.7
+W0424 20:08:47.357915             MAIN OrthancConfiguration.cpp:110] Scanning folder "Configuration" for configuration files
+W0424 20:08:47.357915             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\aws-s3.json"
+W0424 20:08:47.365442             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\azure.json"
+W0424 20:08:47.373102             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\delayed-deletion.json"
+W0424 20:08:47.379637             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\dicomweb.json"
+W0424 20:08:47.386325             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\housekeeper.json"
+W0424 20:08:47.394853             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\indexer.json"
+W0424 20:08:47.399518             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\mysql.json"
+W0424 20:08:47.406443             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\odbc.json"
+W0424 20:08:47.413306             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\orthanc-explorer-2.json"
+W0424 20:08:47.418291             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\orthanc.json"
+W0424 20:08:47.429372             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\postgresql.json"
+W0424 20:08:47.436466             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\serve-folders.json"
+W0424 20:08:47.443563             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\tcia.json"
+W0424 20:08:47.448158             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\transfers.json"
+W0424 20:08:47.453132             MAIN OrthancConfiguration.cpp:59] Reading the configuration from: "Configuration\worklists.json"
+W0424 20:08:47.627746             MAIN main.cpp:934] Loading plugin(s) from: E:\Orthanc\Orthanc Server\Plugins
+W0424 20:08:47.782880             MAIN PluginsManager.cpp:287] Registering plugin 'ohif' (version 1.5)
+W0424 20:08:47.830449             MAIN PluginsManager.cpp:287] Registering plugin 'orthanc-explorer-2' (version mainline)
+W0424 20:08:47.831450             MAIN PluginsManager.cpp:158] Root URI to the Orthanc-Explorer 2 application: /ui/
+W0424 20:08:47.831450             MAIN OrthancInitialization.cpp:444] SQLite index directory: "C:\Orthanc"
+W0424 20:08:47.831450             MAIN OrthancInitialization.cpp:543] Storage directory: "C:\Orthanc"
+W0424 20:08:47.840961             MAIN HttpClient.cpp:1206] HTTPS will use the CA certificates from this file: E:\Orthanc\Orthanc Server\Configuration\ca-certificates.crt
+W0424 20:08:47.840961             MAIN LuaContext.cpp:95] Lua says: Lua toolbox installed
+W0424 20:08:47.840961             MAIN LuaContext.cpp:95] Lua says: Lua toolbox installed
+W0424 20:08:47.841961             MAIN ServerContext.cpp:589] Disk compression is disabled
+W0424 20:08:47.841961             MAIN ServerIndex.cpp:395] No limit on the number of stored patients
+W0424 20:08:47.841961             MAIN ServerIndex.cpp:415] No limit on the size of the storage area
+W0424 20:08:47.842959             MAIN ServerContext.cpp:284] Reloading the jobs from the last execution of Orthanc
+W0424 20:08:47.850470             MAIN JobsEngine.cpp:276] The jobs engine has started with 2 threads
+W0424 20:08:47.851470             MAIN main.cpp:1346] DICOM server listening with AET ORTHANC on port: 4242
+W0424 20:08:47.851470             MAIN HttpServer.cpp:2046] HTTP compression is disabled
+W0424 20:08:47.851470             MAIN main.cpp:1195] Remote LUA script execution is disabled
+W0424 20:08:47.851470             MAIN main.cpp:1207] REST API cannot write to the file system because the "RestApiWriteToFileSystemEnabled" configuration is set to false.  The URI /instances/../export is disabled.  This is the most secure configuration.
+W0424 20:08:47.853470             MAIN HttpServer.cpp:1804] HTTP server listening on port: 8042 (HTTPS encryption is disabled, remote access is not allowed)
+W0424 20:08:47.853470             MAIN main.cpp:946] Orthanc has started
+E0424 20:08:47.857690             MAIN ohif:/OrthancException.cpp:62] Internal error: The OHIF plugin requires the DICOMweb plugin to be installed
+E0424 20:08:47.857690             MAIN PluginsManager.cpp:154] Exception: Internal error
+W0424 20:08:48.940455             MAIN main.cpp:1362]     DICOM server has stopped
+E0424 20:08:48.940455             MAIN ServerContext.cpp:532] INTERNAL ERROR: ServerContext::Stop() should be invoked manually to avoid mess in the destruction order!
+W0424 20:08:49.127478             MAIN JobsEngine.cpp:317] The jobs engine has stopped
+W0424 20:08:49.371648             MAIN PluginsManager.cpp:224] Unregistering plugin 'ohif' (version 1.5)
+W0424 20:08:49.372665             MAIN PluginsManager.cpp:224] Unregistering plugin 'orthanc-explorer-2' (version mainline)
+E0424 20:08:49.386505             MAIN main.cpp:2159] Uncaught exception, stopping now: [Internal error] (code -1)
+W0424 20:08:49.386505             MAIN main.cpp:2190] Orthanc has stopped
